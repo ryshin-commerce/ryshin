@@ -1,0 +1,18 @@
+/*https: //www.materialpalette.com/red/light-blue*/
+/*http: //paletton.com/#uid=7030u0koVuCfdHJkrz6tQr5vtle*/
+/*$bg-color: #e9ebee;*/
+/*$text-blue: #4b98c8;*/
+/*$gray-border-color: rgba(0,0,0,.2);*/
+[data-main-section] {
+  padding-top: 135px;
+  background-color: #f8f8f8;
+  background-image: url("/images/pages/auth/882-1600-min.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+[data-main-section] {
+  min-height: 100vh; }
+  [data-main-section] [data-content] {
+    padding-top: 135px; }

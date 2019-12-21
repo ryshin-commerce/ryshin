@@ -1,0 +1,12 @@
+/*https: //www.materialpalette.com/red/light-blue*/
+/*http: //paletton.com/#uid=7030u0koVuCfdHJkrz6tQr5vtle*/
+/*$bg-color: #e9ebee;*/
+/*$text-blue: #4b98c8;*/
+/*$gray-border-color: rgba(0,0,0,.2);*/
+[data-main-section] {
+  padding-top: 170px;
+  background-color: #f8f8f8; }
+
+@media (max-width: 1024px) {
+  [data-main-section] {
+    padding-top: 0; } }

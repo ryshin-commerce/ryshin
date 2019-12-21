@@ -1,0 +1,199 @@
+﻿footer, .navbar {
+    background-color: rgba(0,0,0,.82);
+}
+
+body {
+    font-family: 'Google Sans', 'Open Sans', sans-serif !important;
+    line-height: normal;
+    font-size: 16px;  
+
+    main {
+        section {
+            z-index: 1;
+        }
+    }
+}
+
+[data-main-section] {
+    min-height: calc(100vh - 360px);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+[data-right-side] {
+    background-color: white;
+    margin-bottom: 50px;
+    width: calc(100% - 300px);
+    display: inline-block;
+    float: right;
+}
+
+[data-left-side] {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+
+    #frmLazyLoadDocumentListNavs {
+        border-bottom: 1px solid #DFE3EC;
+    }
+
+    [data-menu] {
+        li {
+            border-bottom: 1px solid #DFE3EC;
+
+            [data-item-info] {
+                a {
+                    font-size: 16px !important;
+                    line-height: 25px;
+                    color: #162A4C;
+                }
+            }
+        }
+
+        [data-childs] {
+            margin-left: 30px;
+            border-left: 1px dashed silver;
+            margin-bottom: 15px;
+            display: none;
+            height: 0;
+            transition: height 0.5s ease;
+
+            li {
+                border-bottom: none;
+
+                [data-item-info] {
+                    padding-left: 15px;
+                }
+            }
+        }
+    }
+
+    [data-show-hide] ~ label {
+        padding: 10px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+    }
+
+    [data-show-hide]:checked ~ [data-childs] {
+        display: block;
+        transition: height 0.5s ease;
+        height: initial;
+    }
+
+    [data-show-hide]:checked ~ label {
+        transform: rotate(-180deg);
+    }
+}
+
+
+.navbar {
+    .menu {
+
+        li {
+            &[data-avarta]{
+                margin:0 !important;
+            }
+
+            &.active {
+                a {
+                    color: red !important;
+                }
+            }
+
+            a {
+                &:hover {
+                }
+
+                padding: 10px 15px;
+            }
+        }
+    }
+}
+
+
+//Content
+[data-content] {
+    h3 {
+        font-weight: bold;
+    }
+
+    font-size: 15px;
+
+    ul {
+        margin-left: 35px;
+
+        li {
+            padding: 5px 0;
+            line-height: 24px;
+        }
+    }
+
+    p {
+        padding: 7px 0;
+    }
+}
+
+._z-company-container {
+    ._z-info-card {
+        top: 46px;
+        box-shadow: 0 2px 3px rgba(0,0,0,.4);
+        z-index: 1;
+        transition: all .15s ease-out;
+        transition-delay: .3s;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        visibility: hidden;
+        opacity: 0;
+        border-radius: 2px;
+        position: absolute;
+        width: 400px;
+        background-color: #cd2122;
+
+        a:hover {
+            background-image: none !important;
+        }
+    }
+
+    &:hover {
+        ._z-info-card {
+            visibility: visible !important;
+            display: block !important;
+            opacity: 1;
+            margin-top: 10px;
+            transition-delay: 0s;
+            z-index: 10;
+        }
+    }
+}
+
+[data-user-box] {
+    width: 320px;
+    right: 0;
+    top: 48px !important;
+
+    ._width-100-imp {
+        width: 100% !important
+    }
+
+    font-weight: normal !important;
+
+    a._-button {
+        color: #156DB8 !important;
+    }
+
+    ul {
+        li {
+            a {
+                color: #156db8 !important;
+                width: 100% !important;
+                padding: 5px !important;
+            }
+
+            width: 100% !important;
+            
+        }
+    }
+}
