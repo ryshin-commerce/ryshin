@@ -52,7 +52,7 @@ body {
 
     ._z-company-container {
         &::before {
-            background-image: url(/images/hoverme.png);
+            background-image: url(https://cdn.jsdelivr.net/gh/ryshin-commerce/ryshin@master/images/hoverme.png);
             width: 98px;
             height: 35px;
             position: absolute;
@@ -92,7 +92,8 @@ body {
     }
 
     .menu {
-        padding: 10px 0;      
+        padding: 10px 0;
+
         li {
             position: relative;
 
