@@ -9,7 +9,7 @@ header h1 {
 [data-session-1] {
   height: 600px;
   /* The image used */
-  background-image: url("/images/pages/contact/100-min.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/ryshin-commerce/ryshin@master/images/pages/contact/100-min.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center top;
@@ -20,7 +20,7 @@ header h1 {
     line-height: 50px; }
 
 [data-section-contact-form] .wrapper960 {
-  background-image: url("/images/pages/home/index/1104-min.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/ryshin-commerce/ryshin@master/images/pages/home/index/1104-min.jpg");
   background-size: cover;
   -webkit-box-shadow: 0 40px 120px -20px rgba(0, 0, 0, 0.6);
           box-shadow: 0 40px 120px -20px rgba(0, 0, 0, 0.6); }
@@ -63,7 +63,7 @@ header h1 {
         [data-section-contact-form] .wrapper960 form .row[data-captcha-container] ._image-wrap::before {
           width: 100%;
           height: 100%;
-          background-image: url(/images/icons/continuous-min.svg);
+          background-image: url(https://cdn.jsdelivr.net/gh/ryshin-commerce/ryshin@master/images/icons/continuous-min.svg);
           position: absolute;
           background-position: center center;
           background-repeat: no-repeat;

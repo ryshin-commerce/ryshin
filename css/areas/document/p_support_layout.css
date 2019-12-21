@@ -24,6 +24,8 @@ body {
   width: 300px;
   display: inline-block;
   vertical-align: top; }
+  [data-left-side] #frmLazyLoadDocumentListNavs {
+    border-bottom: 1px solid #DFE3EC; }
   [data-left-side] [data-menu] li {
     border-bottom: 1px solid #DFE3EC; }
     [data-left-side] [data-menu] li [data-item-info] a {

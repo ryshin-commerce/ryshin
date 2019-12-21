@@ -48,7 +48,7 @@ label.active {
 [data-session-1] {
   height: 600px;
   /* The image used */
-  background-image: url("/images/pages/price/index/3515-min.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/ryshin-commerce/ryshin@master/images/pages/price/index/3515-min.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center top;
