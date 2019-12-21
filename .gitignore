@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+/.scss
+/sass
+/site.webmanifest
+/safari-pinned-tab.svg
+/mstile-70x70.png
+/mstile-310x310.png
+/mstile-310x150.png
+/mstile-150x150.png
+/mstile-144x144.png
+/favicon.ico
+/favicon-32x32.png
+/favicon-16x16.png
+/browserconfig.xml
+/apple-touch-icon.png
+/android-chrome-512x512.png
+/android-chrome-192x192.png
+/.gitattributes
+/js
+/js
+/ourlib

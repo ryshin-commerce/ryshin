@@ -1,0 +1,1 @@
+"use strict";var tabs;function init(){}document.addEventListener("DOMContentLoaded",function(){init()});

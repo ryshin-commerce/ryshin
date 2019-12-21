@@ -1,0 +1,38 @@
+/*https: //www.materialpalette.com/red/light-blue*/
+/*http: //paletton.com/#uid=7030u0koVuCfdHJkrz6tQr5vtle*/
+/*$bg-color: #e9ebee;*/
+/*$text-blue: #4b98c8;*/
+/*$gray-border-color: rgba(0,0,0,.2);*/
+img {
+  width: initial !important;
+  max-width: initial !important; }
+
+header h1 {
+  font-size: 60px;
+  line-height: 80px; }
+
+[data-content] {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+[data-session-1] {
+  height: 600px;
+  /* The image used */
+  background-image: url("/images/pages/home/policy/policy-min.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  [data-session-1] h2 {
+    font-size: 40px;
+    line-height: 50px; }
+
+@media (max-width: 1024px) {
+  section header ._center-tranform {
+    width: 100%; }
+  section [data-session-1] {
+    height: calc(100vh - 53px); }
+  section h1 {
+    font-size: 40px;
+    line-height: 46px; } }

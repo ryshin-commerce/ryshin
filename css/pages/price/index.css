@@ -1,0 +1,77 @@
+/*https: //www.materialpalette.com/red/light-blue*/
+/*http: //paletton.com/#uid=7030u0koVuCfdHJkrz6tQr5vtle*/
+/*$bg-color: #e9ebee;*/
+/*$text-blue: #4b98c8;*/
+/*$gray-border-color: rgba(0,0,0,.2);*/
+header h1 {
+  font-size: 60px; }
+
+[data-content] {
+  top: -65px;
+  position: relative; }
+
+[data-tab] {
+  z-index: 10 !important;
+  background-color: #f5f5f570; }
+
+label.active {
+  background-color: #ff000012; }
+  label.active ._z-radio-sign {
+    border-color: #F44336; }
+    label.active ._z-radio-sign::before {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #F44336;
+      top: 4px;
+      left: 4px; }
+
+._z-radio-sign {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cbd6e2;
+  position: relative;
+  border-radius: 50%;
+  background: #fff; }
+
+._list-col-2 li {
+  padding: 5px 10px; }
+
+[data-tab-content] {
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important; }
+
+[data-session-1] {
+  height: 600px;
+  /* The image used */
+  background-image: url("/images/pages/price/index/3515-min.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  [data-session-1] h2 {
+    font-size: 40px;
+    line-height: 50px; }
+
+@media (max-width: 1024px) {
+  section header ._center-tranform {
+    width: 100%;
+    text-align: center; }
+  section [data-session-1] {
+    height: calc(100vh - 53px); }
+  section h1 {
+    font-size: 40px;
+    line-height: 46px; }
+  section [data-content] {
+    top: -56px; }
+    section [data-content] [data-tab-border] li {
+      max-width: 45%; }
+    section [data-content] [data-tab-border] [data-tab="1"] {
+      min-width: 150px; }
+    section [data-content] [data-tab-border] [data-tab="2"] {
+      min-width: 182px; } }
